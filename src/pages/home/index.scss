@@ -1,0 +1,19 @@
+.home-page{
+    display: flex;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .form-list{
+        width: 200px;
+    }
+    .form-dnd{
+        flex: auto;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+    .field-config{
+        width: 200px;
+    }
+}
